@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <script src="main.js"></script>
+</head>
+<body>
+        <header>
+                <nav id="nav">
+                    <ul>
+                        <li class="logo"><a href="index.html">SO-Lite</a></li>
+                        <li><a href="">About</a></li>
+                        <li id="login" style="float:right;"><a href="login.html">Login</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+        <div class="container">
+            <input type="checkbox" id="form-switch">
+            <form id="login-form" action="" method="POST">
+                <div class="card-login">
+                  <!-- <a class="logo" href="">SO-Lite</a> -->
+                      <input type="text" placeholder="Username" required>
+                  <input type="password" placeholder="Password" required>
+                  <button type="submit">Login</button>
+                  <label for="form-switch"><span>Register</span></label>
+                </div>
+              </form>
+  
+              <form id="register-form" action="" method="POST">
+                  <div class="card-login">
+                          <!-- <a class="logo" href="">SO-Lite</a> -->
+                          <input type="text" placeholder="Username" required>
+                          <input type="email" placeholder="Email" required>
+                          <input type="password" placeholder="Password" required>
+                          <input type="password" placeholder="Re Password" required>
+                          <button type="submit">Register</button>
+                          <label for="form-switch">Already a member? Log in</label>
+                  </div>
+              </form>
+          </div>
+  
+        <section id="footer">
+                <footer>
+                        <h2 style="color:#fff;padding:30px;">Footer</h2>
+                </footer>
+            </section>
+</body>
+</html>
